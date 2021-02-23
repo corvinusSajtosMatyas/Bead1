@@ -12,9 +12,14 @@ class Test {
 	}
 	
 	@org.junit.jupiter.api.Test
-	void shifted() {
+	void origString() {
 		Shifter s2 = new Shifter("123abcdABC");
 		System.out.println(s2.getOrigString());
+	}
+	
+	@org.junit.jupiter.api.Test
+	void shifted() {
+		Shifter s2 = new Shifter("123abcdABC");
 		System.out.println(s2.shifted());
 	}
 

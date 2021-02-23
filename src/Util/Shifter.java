@@ -12,12 +12,9 @@ public class Shifter {
 		for (int i = 0; i < origString.length(); i++) {
 			Character ch = origString.charAt(i);
 
-//			System.out.println("in:" + ch);
 			int numericValue = (int) ch;
-//			 System.out.println(numericValue);
 
 			String chOut = Character.toString(numericValue + 1);
-//			 System.out.println("out:" + chOut);
 			shifted += chOut;
 		}
 
